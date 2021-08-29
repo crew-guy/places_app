@@ -9,10 +9,17 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Great places')),
-      body: Center(
-        child: Text('Hi'),
+    return MaterialApp(
+      title: 'Great Places',
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+        accentColor: Colors.indigo[50],
+      ),
+      home: Scaffold(
+        appBar: AppBar(title: Text('Jageh')),
+        body: Center(
+          child: Text('Places .....'),
+        ),
       ),
     );
   }
