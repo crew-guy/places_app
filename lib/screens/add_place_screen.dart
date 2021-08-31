@@ -13,12 +13,15 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
         appBar: AppBar(
           title: Text('Add a New Place'),
         ),
-        body: Column(children: [
-          Text('User inputs'),
-          RaisedButton.icon(
-              icon: Icon(Icons.add),
-              onPressed: () {},
-              label: Text('Add a place'))
-        ]));
+        body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text('User inputs'),
+              RaisedButton.icon(
+                  icon: Icon(Icons.add),
+                  onPressed: () {},
+                  label: Text('Add a place'))
+            ]));
   }
 }
