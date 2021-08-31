@@ -19,6 +19,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
             children: [
               Text('User inputs'),
               RaisedButton.icon(
+                  elevation: 0,
                   icon: Icon(Icons.add),
                   onPressed: () {},
                   label: Text('Add a place'))
